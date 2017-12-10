@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView, StyleSheet } from 'react-native';
 import Spinner from 'react-native-loading-spinner-overlay';
 
 import FetchCoinData from '../Actions/FetchCoinData';
 import CoinCard from './CoinCard';
+
+const styles = StyleSheet.create({
+    contentContainer: {
+        paddingBottom: 100,
+        paddingTop: 55
+    }
+})
 
 class CryptoContainer extends Component {
     componentWillMount() {
@@ -44,9 +51,9 @@ class CryptoContainer extends Component {
         }
 
         return (
-            <View>
+            <ScrollView contentContainerStyle={styles.contentContainer}>
                 {this.renderCoinCards()}
-            </View>
+            </ScrollView>
         )
     }
 }
