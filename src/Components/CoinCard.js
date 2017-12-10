@@ -22,12 +22,12 @@ const CoinCard = ({ symbol, coin_name, price_usd, percent_change_24h, percent_ch
         <View style={container}>
             <Image 
                 style={image}
-                source={{ url: images[symbol] }}
+                source={{ uri: images[symbol] }}
             />
             <Text>{symbol}</Text>
-            <Text>{price_usd}</Text>
-            <Text>{percent_change_24h}</Text>
-            <Text>{percent_change_7d}</Text>                                          
+            <Text>{price_usd} <Text style={bold}>$</Text></Text>
+            <Text>Change past 24 hours: {percent_change_24h}</Text>
+            <Text>Chnage past 7 days: {percent_change_7d}</Text>                                          
         </View>
     )
 }
