@@ -8,5 +8,7 @@ export const images = {
     XEM: 'https://res.cloudinary.com/da7jhtpgh/image/upload/v1508609486/nem_imprip.png',
     BCC: 'https://res.cloudinary.com/da7jhtpgh/image/upload/v1508609486/bitconnect_oj1bo5.png',
     XMR: 'https://res.cloudinary.com/da7jhtpgh/image/upload/v1508609486/monero_wzk3ur.png',
-    NEO: 'https://res.cloudinary.com/da7jhtpgh/image/upload/v1508609486/neo_fvoo6c.png'
+    NEO: 'https://res.cloudinary.com/da7jhtpgh/image/upload/v1508609486/neo_fvoo6c.png',
+    MIOTA: 'https://payiota.me/resources/payiota_icon.png',
+    BTG: 'http://coinsjournal.com/wp-content/uploads/2017/10/wiLF1k-O_400x400.jpg'
 };
