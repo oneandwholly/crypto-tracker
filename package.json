@@ -27,6 +27,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "dev": "^0.1.3",
     "expo": "^23.0.4",
     "react": "16.0.0",
